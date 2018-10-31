@@ -1,7 +1,7 @@
 # simple-i18n
 
-> simple multi languages directive
-
+> for simple multi languages directive
+> It is under development now.
 ## Build Setup
 
 ``` bash
