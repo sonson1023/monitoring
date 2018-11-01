@@ -1,9 +1,9 @@
 # simple-i18n
 
-> for simple multi languages directive
-> It is under development now.
-> It will be developed by custome directive, attribute and cookie.
-> I don't use vuex in this version. it will be chnaged or not.
+> for simple multi languages directive.  
+> It is under development now.  
+> It will be developed by custome directive, attribute and cookie.  
+> I don't use vuex in this version. it will be chnaged or not.  
 
 ## Build Setup
 
