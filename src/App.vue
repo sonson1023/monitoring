@@ -5,9 +5,16 @@
   </div>
 </template>
 
+ <script src="/static/common.js"></script>
 <script>
+
+import {setCookie, getCookie, checkCookie} from './assets/common.js';
+
 export default {
-  name: 'App'
+  name: 'App', 
+  mounted() {
+    setCookie('lang','kr',1000);
+  },
 }
 </script>
 

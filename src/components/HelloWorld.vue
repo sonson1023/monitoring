@@ -1,7 +1,10 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <div v-SET_LANG data-type="kr">Change to kr</div>
+    <div v-SET_LANG data-type="en">Change to en</div>
+     <div v-simplei18n data-type="main.title"> </div>
+    <h2 >Essential Links</h2>
     <ul>
       <li>
         <a
@@ -83,9 +86,10 @@
   </div>
 </template>
 
-<script>
+<script> 
+
 export default {
-  name: 'HelloWorld',
+  name: 'HelloWorld', 
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
